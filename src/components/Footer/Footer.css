@@ -1,0 +1,18 @@
+.footer{
+    padding-top: 30px;
+    background-color: #e3e3e3;
+}
+.footer-details{
+    font-size: small;
+}
+.footer-details p:hover{
+    text-decoration: underline;
+}
+.footer-details a{
+    text-decoration: none;
+    color: black;
+}
+.footer-copyright{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

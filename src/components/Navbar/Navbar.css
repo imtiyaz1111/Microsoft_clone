@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.icon{
+    height: 30px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.navbar-brand img{
+    width: 120px;
+    height: 50px;
+
+}
+.navbar-brands img{
+    width: 120px;
+    height: 50px;
+
+}
+.navigation{
+    display: flex;
+}
+.navicon{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+
+@media only screen and (max-width: 2000px) and (min-width: 980px)  {    .navbar-brands img{
+    display: none;
+}}
+@media (max-width: 988px) {
+    .navbar-brand img{
+        display: none;
+    }
+  }
